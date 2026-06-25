@@ -76,12 +76,12 @@ No SaaS subscription. No setup fee. No charge if you don't transact.
 
 | Repo | What it does |
 |---|---|
-| **[ticketwave](https://github.com/TicketWaveHQ/ticketwave)** | The platform monorepo — dashboard, public-facing apps, partner portal, webhook handlers, Stripe Connect orchestration. Next.js 16 + Turborepo. *Private.* |
-| **[officesinleeds](https://github.com/TicketWaveHQ/officesinleeds)** | Reference implementation of the directory template — a Leeds workspace listings site published at [officesinleeds.com](https://officesinleeds.com). Astro 6.4 + SSR. *Public.* |
-| **leeds[spa\|pizza\|cafe\|burgers\|caribbeanfood\|rent]** | Forks of the officesinleeds template, one per Leeds vertical. Same engine, different domain + dataset. |
-| **[marketing-asset-gen](https://github.com/TicketWaveHQ/marketing-asset-gen)** | Side-tool generating ad-creative bundles for partners (£19/campaign, no subscription). Astro + image pipeline. |
+| **ticketwave** | The platform monorepo — dashboard, public-facing apps, partner portal, webhook handlers, Stripe Connect orchestration. Next.js 16 + Turborepo. *Private.* |
+| **officesinleeds** | Reference implementation of the directory template — a Leeds workspace listings site published at [officesinleeds.com](https://officesinleeds.com). Astro 6.4 + SSR. *Private.* |
+| **leeds[spa\|pizza\|cafe\|burgers\|caribbeanfood\|rent]** | Forks of the officesinleeds template, one per Leeds vertical. Same engine, different domain + dataset. *Private.* |
+| **marketing-asset-gen** | Side-tool generating ad-creative bundles for partners (£19/campaign, no subscription). Astro + image pipeline. *Private.* |
 
-The TWHQ engine sits behind multiple consumer-facing brands. The recs network at the [`2026{city}.com` domains](https://2026london.com) (Bourdain-style city guides) lives inside the monorepo under `apps/city-template`; the directory verticals (officesinleeds + the 6 leeds-* repos) stand alone in this org.
+All repos in this org are currently private; public source links will be added if and when individual repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The recs network at the [`2026{city}.com` domains](https://2026london.com) (Bourdain-style city guides) lives inside the monorepo under `apps/city-template`; the directory verticals (officesinleeds + the 6 leeds-* repos) stand alone in this org.
 
 ---
 
