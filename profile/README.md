@@ -6,7 +6,7 @@
 
 # TicketWave HQ
 
-**Access-decision infrastructure for ticketing, hospitality, and services.**
+**White-label commerce for events, bookings, and online ordering. Sold under your brand, not ours.**
 
 Multi-vertical platform for UK businesses that sell time, seats, or access.
 Events, restaurants, and service bookings — one engine, one payout, one identity.
@@ -25,13 +25,26 @@ Events, restaurants, and service bookings — one engine, one payout, one identi
 
 ## 📑 Contents
 
+- [Two product lines under TicketWave HQ Ltd](#-two-product-lines-under-ticketwave-hq-ltd)
 - [Three verticals, one engine](#-three-verticals-one-engine)
 - [How partners use it](#-how-partners-use-it)
 - [Pricing](#-pricing)
 - [The repos in this org](#-the-repos-in-this-org)
+- [Consumer brands](#-consumer-brands)
 - [Stack + security](#-stack--security)
 - [About the company](#-about-the-company)
 - [Contact](#-contact)
+
+---
+
+## 🏛 Two product lines under TicketWave HQ Ltd
+
+| Product line | What it is | Lives at | Sectors |
+|---|---|---|---|
+| 🎟 **TicketWave** | White-label commerce platform for events, bookings, and online ordering | [access.ticketwavehq.com](https://access.ticketwavehq.com) | Events, festivals, hospitality, food + drink, services |
+| 🛰 **TicketWave Witness** | Physical-security sensing for the built environment | [witness.ticketwavehq.com](https://witness.ticketwavehq.com) | BTR, hotels, venues, universities, PBSA, councils, transport hubs, events |
+
+Both product lines are owned by **TicketWave HQ Ltd** (Companies House [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)). They share legal entity, security posture, and EU-sovereign hosting, but ship under their own product surfaces.
 
 ---
 
@@ -81,7 +94,29 @@ No SaaS subscription. No setup fee. No charge if you don't transact.
 | **leeds[spa\|pizza\|cafe\|burgers\|caribbeanfood\|rent]** | Forks of the officesinleeds template, one per Leeds vertical. Same engine, different domain + dataset. *Private.* |
 | **marketing-asset-gen** | Side-tool generating ad-creative bundles for partners (£19/campaign, no subscription). Astro + image pipeline. *Private.* |
 
-All repos in this org are currently private; public source links will be added if and when individual repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The recs network at the [`2026{city}.com` domains](https://2026london.com) (Bourdain-style city guides) lives inside the monorepo under `apps/city-template`; the directory verticals (officesinleeds + the 6 leeds-* repos) stand alone in this org.
+All repos in this org are currently private; public source links will be added if and when individual repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The Bourdain-style city-guides network lives inside the monorepo under `apps/city-template` and is the engine behind the **Citorah** consumer brand (see below); the directory verticals (officesinleeds + the 6 leeds-* repos) stand alone in this org.
+
+---
+
+## 🌍 Consumer brands
+
+The TWHQ engine sits behind consumer-facing properties that are operated as separate properties with their own positioning and editorial voice.
+
+### Citorah — city-guide network
+
+**[citorah.com](https://citorah.com)** is the apex consumer brand for the city-guides network. Each city ships as a path under the apex:
+
+| City | Path |
+|---|---|
+| London | [citorah.com/london](https://citorah.com/london) |
+| Lisbon | [citorah.com/lisbon](https://citorah.com/lisbon) |
+| Ibiza | [citorah.com/ibiza](https://citorah.com/ibiza) |
+| Madrid | [citorah.com/madrid](https://citorah.com/madrid) |
+| Barcelona | [citorah.com/barcelona](https://citorah.com/barcelona) |
+| Greece | [citorah.com/greece](https://citorah.com/greece) |
+| Dubai | [citorah.com/dubai](https://citorah.com/dubai) |
+
+Seven city surfaces, one apex, one editorial voice. Runs on the same Next.js monorepo (`apps/city-template`) with runtime multi-tenancy keyed off the URL path.
 
 ---
 
