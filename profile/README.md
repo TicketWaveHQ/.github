@@ -106,21 +106,25 @@ Public source links will be added if and when individual private repos are open-
 
 The TWHQ engine sits behind consumer-facing properties that are operated as separate properties with their own positioning and editorial voice.
 
-### Citorah — city-guide network
+### Citorah — the city travel-guide network
 
-**[citorah.com](https://citorah.com)** is the apex consumer brand for the city-guide network. Each city ships as a path under the apex:
+**Citorah** is the city travel-guide network at **[citorah.com](https://citorah.com)** — Ibiza, Barcelona, Madrid, London, Lisbon, Greece, and Dubai. Owned and operated by TicketWave HQ Ltd as a consumer property, distinct from the B2B TicketWave commerce brand.
 
-| City | Path |
+Seven city surfaces today; one apex, one editorial voice. Each city currently lives at its own subdomain:
+
+| City | Live surface |
 |---|---|
-| London | [citorah.com/london](https://citorah.com/london) |
-| Lisbon | [citorah.com/lisbon](https://citorah.com/lisbon) |
-| Ibiza | [citorah.com/ibiza](https://citorah.com/ibiza) |
-| Madrid | [citorah.com/madrid](https://citorah.com/madrid) |
-| Barcelona | [citorah.com/barcelona](https://citorah.com/barcelona) |
-| Greece | [citorah.com/greece](https://citorah.com/greece) |
-| Dubai | [citorah.com/dubai](https://citorah.com/dubai) |
+| Lisbon | [lisbon.citorah.com](https://lisbon.citorah.com) |
+| Ibiza | [ibiza.citorah.com](https://ibiza.citorah.com) |
+| Barcelona | [barcelona.citorah.com](https://barcelona.citorah.com) |
+| Madrid | [madrid.citorah.com](https://madrid.citorah.com) |
+| Greece | [greece.citorah.com](https://greece.citorah.com) |
+| London | [london.citorah.com](https://london.citorah.com) |
+| Dubai | [dubai.citorah.com](https://dubai.citorah.com) |
 
-Seven city surfaces, one apex, one editorial voice. Runs on the same Next.js monorepo (`apps/city-template`) with runtime multi-tenancy keyed off the URL path.
+Runs on the same Next.js 16 monorepo (`apps/city-template`) with runtime multi-tenancy. A path-based migration (`citorah.com/{city}`) is in flight; subdomains are the canonical surface until that ships.
+
+A dedicated `github.com/citorah` org is spinning up Q3 2026 for any code that splits out of the TWHQ monorepo; until then, all Citorah source lives here under `TicketWaveHQ/ticketwave`.
 
 ---
 
