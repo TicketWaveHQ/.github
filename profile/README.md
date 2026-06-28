@@ -34,6 +34,7 @@ Events, restaurants, and service bookings — one engine, one payout, one identi
 - [Stack + security](#-stack--security)
 - [About the company](#-about-the-company)
 - [Contact](#-contact)
+- [Find us elsewhere](#-find-us-elsewhere)
 
 ---
 
@@ -81,7 +82,7 @@ Single source of truth, no hidden uplift:
 - **Events**: 1.5%–4% tiered by volume + risk profile
 - **Bookings + services**: 1.5%–4% tiered
 
-No SaaS subscription. No setup fee. No charge if you don't transact.
+No SaaS subscription on the commerce engine itself. No setup fee. No charge if you do not transact.
 
 ---
 
@@ -90,11 +91,14 @@ No SaaS subscription. No setup fee. No charge if you don't transact.
 | Repo | What it does |
 |---|---|
 | **ticketwave** | The platform monorepo — dashboard, public-facing apps, partner portal, webhook handlers, Stripe Connect orchestration. Next.js 16 + Turborepo. *Private.* |
+| **openapi-spec** | OpenAPI 3.1 spec for the TicketWave API (`/api/v1` + `/api/v2`). The `@ticketwave/sdk` package is generated from this spec. *Public, Apache-2.0.* |
+| **.github** | This org-profile repo — renders the page you are reading, plus org-wide community health files (`SECURITY.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SUPPORT.md`, issue templates). *Public.* |
 | **officesinleeds** | Reference implementation of the directory template — a Leeds workspace listings site published at [officesinleeds.com](https://officesinleeds.com). Astro 6.4 + SSR. *Private.* |
-| **leeds[spa\|pizza\|cafe\|burgers\|caribbeanfood\|rent]** | Forks of the officesinleeds template, one per Leeds vertical. Same engine, different domain + dataset. *Private.* |
 | **marketing-asset-gen** | Side-tool generating ad-creative bundles for partners (£19/campaign, no subscription). Astro + image pipeline. *Private.* |
 
-All repos in this org are currently private; public source links will be added if and when individual repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The Bourdain-style city-guides network lives inside the monorepo under `apps/city-template` and is the engine behind the **Citorah** consumer brand (see below); the directory verticals (officesinleeds + the 6 leeds-* repos) stand alone in this org.
+Several private editorial micro-sites at `github.com/TicketWaveHQ/leeds-*` (spa, pizza, cafe, burgers, caribbean food, rent) are forks of the officesinleeds template — same engine, one domain + dataset per vertical.
+
+Public source links will be added if and when individual private repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The city-guide network lives inside the monorepo under `apps/city-template` and is the engine behind the **Citorah** consumer brand (see below); the directory verticals (officesinleeds + the leeds-* sister sites) stand alone.
 
 ---
 
@@ -104,7 +108,7 @@ The TWHQ engine sits behind consumer-facing properties that are operated as sepa
 
 ### Citorah — city-guide network
 
-**[citorah.com](https://citorah.com)** is the apex consumer brand for the city-guides network. Each city ships as a path under the apex:
+**[citorah.com](https://citorah.com)** is the apex consumer brand for the city-guide network. Each city ships as a path under the apex:
 
 | City | Path |
 |---|---|
@@ -134,7 +138,7 @@ Seven city surfaces, one apex, one editorial voice. Runs on the same Next.js mon
 | **DNSSEC** | Enabled across all live production zones |
 | **Org security** | 2FA enforced on every contributor account |
 
-Single-region, single-vendor by design — observability and incident response stay tractable.
+Single-region by design, with one primary vendor per layer — observability and incident response stay tractable.
 
 ---
 
@@ -143,8 +147,8 @@ Single-region, single-vendor by design — observability and incident response s
 **TicketWave HQ Ltd** — UK private company limited by shares, registered in England & Wales.
 
 - **Company number**: [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)
-- **Registered office**: England & Wales
-- **Founder**: Jordan Gilbert ([LinkedIn](https://www.linkedin.com/in/eu-jordangilbert/))
+- **Registered office**: Radley House, Richardshaw Road, Pudsey, LS28 6LE, United Kingdom
+- **Founder**: Jordan Gilbert ([LinkedIn](https://www.linkedin.com/in/eu-jordangilbert/)) — Loughborough BSc Architectural Engineering & Design Management, HarvardX GSD1x. 20+ years building websites since 2006.
 
 The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-focused. Consumer brands (the recs network, the directory verticals) are run as separate properties with their own positioning.
 
@@ -161,8 +165,66 @@ The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-f
 
 ---
 
+## 🌐 Find us elsewhere
+
+- **LinkedIn**: [linkedin.com/in/eu-jordangilbert](https://www.linkedin.com/in/eu-jordangilbert/) (founder)
+- **Careers**: [ticketwavehq.com/careers](https://ticketwavehq.com/careers)
+- **Changelog**: [ticketwavehq.com/changelog](https://ticketwavehq.com/changelog)
+
+---
+
 <div align="center">
 
 *TicketWave HQ Ltd · Companies House [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167) · England & Wales*
 
 </div>
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TicketWave HQ Ltd",
+  "alternateName": "TicketWave HQ",
+  "url": "https://ticketwavehq.com",
+  "logo": "https://ticketwavehq.com/logo.png",
+  "description": "White-label commerce platform for events, bookings, and online ordering. Multi-vertical engine for UK businesses that sell time, seats, or access.",
+  "foundingDate": "2024",
+  "legalName": "TicketWave HQ Ltd",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Companies House",
+      "value": "17143167"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Radley House, Richardshaw Road",
+    "addressLocality": "Pudsey",
+    "postalCode": "LS28 6LE",
+    "addressCountry": "GB"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Jordan Gilbert",
+    "sameAs": "https://www.linkedin.com/in/eu-jordangilbert/"
+  },
+  "sameAs": [
+    "https://github.com/TicketWaveHQ",
+    "https://find-and-update.company-information.service.gov.uk/company/17143167"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Security",
+      "email": "security@ticketwavehq.com",
+      "url": "https://github.com/TicketWaveHQ/.github/blob/main/SECURITY.md"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "hello@ticketwavehq.com"
+    }
+  ]
+}
+```
