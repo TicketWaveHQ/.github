@@ -109,6 +109,8 @@ Public source links will be added if and when individual private repos are open-
 
 Our REST API is a public OpenAPI 3.1 spec: [openapi-spec](https://github.com/TicketWaveHQ/openapi-spec) (Apache-2.0). The official TypeScript SDK, `@ticketwave/sdk`, is generated from it.
 
+Runnable quickstarts: [sdk-examples](https://github.com/TicketWaveHQ/sdk-examples), one small file per API operation with curl equivalents.
+
 ---
 
 ## 🌍 Consumer brands
