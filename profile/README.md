@@ -150,7 +150,7 @@ Single-region by design, with one primary vendor per layer — observability and
 
 - **Company number**: [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)
 - **Registered office**: Radley House, Richardshaw Road, Pudsey, LS28 6LE, United Kingdom
-- **Founder + CTO**: Jordan Lewis Gilbert. See the canonical [author profile](https://access.ticketwavehq.com/author/jordan-gilbert), [everything Jordan has written](https://access.ticketwavehq.com/author/jordan-gilbert/works), and the author [Atom feed](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml). BSc Architectural Engineering & Design Management from Loughborough University; HarvardX GSD1x Verified Certificate (online course, not a Harvard degree). Twenty years building for the web, since 2006.
+- **Founder + CTO**: Jordan Lewis Gilbert. Loughborough BSc Architectural Engineering & Design Management engineer with named-firm history at [Mott MacDonald](https://www.mottmac.com/), [Kier Group](https://www.kier.co.uk/), [Higgins Partnerships](https://www.higginspartnerships.co.uk/), and [Sweco](https://www.sweco.co.uk/) between 2017 and 2022. HarvardX GSD1x Verified Certificate (an online course, not a Harvard degree). Twenty years building for the web, since 2006. TicketWave HQ Ltd was incorporated 8 April 2026. See the canonical [author profile](https://access.ticketwavehq.com/author/jordan-gilbert), [everything Jordan has written](https://access.ticketwavehq.com/author/jordan-gilbert/works), and the author [Atom feed](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml).
 
 The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-focused. Consumer brands (the recs network, the directory verticals) are run as separate properties with their own positioning.
 
@@ -200,7 +200,7 @@ The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-f
   "url": "https://ticketwavehq.com",
   "logo": "https://ticketwavehq.com/logo.png",
   "description": "White-label commerce platform for events, bookings, and online ordering. Multi-vertical engine for UK businesses that sell time, seats, or access.",
-  "foundingDate": "2024",
+  "foundingDate": "2026-04-08",
   "legalName": "TicketWave HQ Ltd",
   "identifier": [
     {
@@ -218,8 +218,14 @@ The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-f
   },
   "founder": {
     "@type": "Person",
-    "name": "Jordan Gilbert",
-    "sameAs": "https://www.linkedin.com/in/eu-jordangilbert/"
+    "@id": "https://access.ticketwavehq.com/about#jordan-gilbert",
+    "name": "Jordan Lewis Gilbert",
+    "url": "https://access.ticketwavehq.com/author/jordan-gilbert",
+    "sameAs": [
+      "https://www.linkedin.com/in/eu-jordangilbert/",
+      "https://github.com/sansware",
+      "https://sansware.tech"
+    ]
   },
   "sameAs": [
     "https://github.com/TicketWaveHQ",
