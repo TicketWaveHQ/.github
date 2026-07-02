@@ -34,6 +34,7 @@ Events, restaurants, and service bookings — one engine, one payout, one identi
 - [Stack + security](#-stack--security)
 - [About the company](#-about-the-company)
 - [Contact](#-contact)
+- [Editorial + research](#-editorial--research)
 - [Find us elsewhere](#-find-us-elsewhere)
 
 ---
@@ -119,8 +120,9 @@ The TWHQ engine sits behind consumer-facing properties that are operated as sepa
 | Barcelona | [citorah.com/barcelona](https://citorah.com/barcelona) |
 | Greece | [citorah.com/greece](https://citorah.com/greece) |
 | Dubai | [citorah.com/dubai](https://citorah.com/dubai) |
+| Cancun | [citorah.com/cancun](https://citorah.com/cancun) |
 
-Seven city surfaces, one apex, one editorial voice. Runs on the same Next.js monorepo (`apps/city-template`) with runtime multi-tenancy keyed off the URL path.
+Eight city surfaces (Mexico region added July 2026), one apex, one editorial voice. Runs on the same Next.js monorepo (`apps/city-template`) with runtime multi-tenancy keyed off the URL path.
 
 ---
 
@@ -148,7 +150,7 @@ Single-region by design, with one primary vendor per layer — observability and
 
 - **Company number**: [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)
 - **Registered office**: Radley House, Richardshaw Road, Pudsey, LS28 6LE, United Kingdom
-- **Founder**: Jordan Gilbert ([LinkedIn](https://www.linkedin.com/in/eu-jordangilbert/)) — Loughborough BSc Architectural Engineering & Design Management, HarvardX GSD1x. 20+ years building websites since 2006.
+- **Founder + CTO**: Jordan Lewis Gilbert. See the canonical [author profile](https://access.ticketwavehq.com/author/jordan-gilbert), [everything Jordan has written](https://access.ticketwavehq.com/author/jordan-gilbert/works), and the author [Atom feed](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml). BSc Architectural Engineering & Design Management from Loughborough University; HarvardX GSD1x Verified Certificate (online course, not a Harvard degree). Twenty years building for the web, since 2006.
 
 The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-focused. Consumer brands (the recs network, the directory verticals) are run as separate properties with their own positioning.
 
@@ -165,8 +167,18 @@ The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-f
 
 ---
 
+## 📚 Editorial + research
+
+- **Whitepaper**: [The Economics of White-Label Event Ticketing](https://access.ticketwavehq.com/research/whitelabel-economics). Honest breakdown of where the revenue from a £40 event ticket actually flows through aggregator, curated-marketplace, and white-label models. CC BY 4.0.
+- **Blog**: [access.ticketwavehq.com/blog](https://access.ticketwavehq.com/blog). Platform economics and engineering notes.
+- **Help centre**: [access.ticketwavehq.com/help](https://access.ticketwavehq.com/help). Operating notes and product docs. Regulatory pieces (PCI, GDPR) are dated and reviewer-flagged.
+- **Author feed**: [access.ticketwavehq.com/author/jordan-gilbert/feed.xml](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml). Atom 1.0 for every research paper, blog post, and long-form help article.
+
+---
+
 ## 🌐 Find us elsewhere
 
+- **Founder profile**: [access.ticketwavehq.com/author/jordan-gilbert](https://access.ticketwavehq.com/author/jordan-gilbert)
 - **LinkedIn**: [linkedin.com/in/eu-jordangilbert](https://www.linkedin.com/in/eu-jordangilbert/) (founder)
 - **Careers**: [ticketwavehq.com/careers](https://ticketwavehq.com/careers)
 - **Changelog**: [ticketwavehq.com/changelog](https://ticketwavehq.com/changelog)
