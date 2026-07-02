@@ -30,11 +30,13 @@ Events, restaurants, and service bookings — one engine, one payout, one identi
 - [How partners use it](#-how-partners-use-it)
 - [Pricing](#-pricing)
 - [The repos in this org](#-the-repos-in-this-org)
+- [Public developer APIs](#-public-developer-apis)
 - [Consumer brands](#-consumer-brands)
 - [Stack + security](#-stack--security)
 - [About the company](#-about-the-company)
 - [Contact](#-contact)
 - [Editorial + research](#-editorial--research)
+- [Founder + ecosystem](#-founder--ecosystem)
 - [Find us elsewhere](#-find-us-elsewhere)
 
 ---
@@ -103,6 +105,12 @@ Public source links will be added if and when individual private repos are open-
 
 ---
 
+## 🔌 Public developer APIs
+
+Our REST API is a public OpenAPI 3.1 spec: [openapi-spec](https://github.com/TicketWaveHQ/openapi-spec) (Apache-2.0). The official TypeScript SDK, `@ticketwave/sdk`, is generated from it.
+
+---
+
 ## 🌍 Consumer brands
 
 The TWHQ engine sits behind consumer-facing properties that are operated as separate properties with their own positioning and editorial voice.
@@ -142,6 +150,8 @@ Eight city surfaces (Mexico region added July 2026), one apex, one editorial voi
 
 Single-region by design, with one primary vendor per layer — observability and incident response stay tractable.
 
+Our stack is EU-sovereign; the audit method is public: [eu-sovereignty-checklist](https://github.com/sansware/eu-sovereignty-checklist).
+
 ---
 
 ## 🏢 About the company
@@ -173,6 +183,12 @@ The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-f
 - **Blog**: [access.ticketwavehq.com/blog](https://access.ticketwavehq.com/blog). Platform economics and engineering notes.
 - **Help centre**: [access.ticketwavehq.com/help](https://access.ticketwavehq.com/help). Operating notes and product docs. Regulatory pieces (PCI, GDPR) are dated and reviewer-flagged.
 - **Author feed**: [access.ticketwavehq.com/author/jordan-gilbert/feed.xml](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml). Atom 1.0 for every research paper, blog post, and long-form help article.
+
+---
+
+## 👤 Founder + ecosystem
+
+Built by [Jordan Gilbert](https://github.com/sansware). See also [@Ukwebmarketing](https://github.com/Ukwebmarketing).
 
 ---
 
