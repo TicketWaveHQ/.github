@@ -1,266 +1,111 @@
 <!-- This file renders on the public org page:
      https://github.com/TicketWaveHQ
-     Source: github.com/TicketWaveHQ/.github/profile/README.md -->
+     Source: github.com/TicketWaveHQ/.github/profile/README.md
+
+     Rewritten 2026-09-19. The previous version described this company as a
+     white-label commerce and ticketing platform with two product lines, a
+     pricing page and a partner programme. None of that is what TicketWave HQ
+     Ltd is or does.
+
+     It mattered more than an ordinary out-of-date page. GitHub organisation
+     profiles rank, and this one carried a "Platform: live" badge linking
+     straight at ticketwavehq.com — so a high-authority domain was telling
+     search engines precisely the thing the company site had just stopped
+     saying. It also linked to /partners/apply, which 404s, and to /pricing,
+     which redirects to a different product's pricing page.
+
+     Per the group operating model: HQ Ltd sells professional services. The
+     commerce and sensing products belong to IP Ltd and are operated
+     separately. Keep this page describing the company that owns this org. -->
 
 <div align="center">
 
 # TicketWave HQ
 
-**White-label commerce for events, bookings, and online ordering. Sold under your brand, not ours.**
+**Governed digital operations for UK businesses.**
 
-Multi-vertical platform for UK businesses that sell time, seats, or access.
-Events, restaurants, and service bookings — one engine, one payout, one identity.
+Five practices under one accountable CTO, on UK and EEA infrastructure,
+against controls published before you sign rather than described after you ask.
 
-[![Live](https://img.shields.io/badge/Platform-live-22c55e?style=flat-square&labelColor=0b0620)](https://ticketwavehq.com)
 [![Companies House](https://img.shields.io/badge/Companies%20House-17143167-d6d3e0?style=flat-square&labelColor=0b0620)](https://find-and-update.company-information.service.gov.uk/company/17143167)
-[![EU-sovereign](https://img.shields.io/badge/Hosting-EU%E2%80%91sovereign-5b4fe5?style=flat-square&labelColor=0b0620)](#-stack--security)
-[![Stripe Connect](https://img.shields.io/badge/Payments-Stripe%20Connect-635bff?style=flat-square&labelColor=0b0620)](https://ticketwavehq.com)
-[![Next.js 16](https://img.shields.io/badge/Engine-Next.js%2016-000?style=flat-square&labelColor=0b0620)](#-stack--security)
+[![Hosting](https://img.shields.io/badge/Hosting-UK%20%2B%20EEA-3dff8e?style=flat-square&labelColor=0b0620)](https://ticketwavehq.com/sovereignty)
+[![Sub-processors](https://img.shields.io/badge/Sub%E2%80%91processors-published-3dff8e?style=flat-square&labelColor=0b0620)](https://ticketwavehq.com/data-processors)
 
-[**Visit ticketwavehq.com**](https://ticketwavehq.com) · [**Apply as a partner**](https://ticketwavehq.com/partners/apply) · [**Contact**](https://ticketwavehq.com/contact)
+[**ticketwavehq.com**](https://ticketwavehq.com) · [**Practices**](https://ticketwavehq.com/practices) · [**Governance**](https://ticketwavehq.com/governance) · [**Contact**](https://ticketwavehq.com/contact)
 
 </div>
 
 ---
 
-## 📑 Contents
+## What this company is
 
-- [Two product lines under TicketWave HQ Ltd](#-two-product-lines-under-ticketwave-hq-ltd)
-- [Three verticals, one engine](#-three-verticals-one-engine)
-- [How partners use it](#-how-partners-use-it)
-- [Pricing](#-pricing)
-- [The repos in this org](#-the-repos-in-this-org)
-- [Public developer APIs](#-public-developer-apis)
-- [Consumer brands](#-consumer-brands)
-- [Stack + security](#-stack--security)
-- [About the company](#-about-the-company)
-- [Contact](#-contact)
-- [Editorial + research](#-editorial--research)
-- [Founder + ecosystem](#-founder--ecosystem)
-- [Find us elsewhere](#-find-us-elsewhere)
+**TicketWave HQ Ltd** is a UK professional services company, registered in
+England and Wales, number **17143167**.
 
----
+It sells consulting, implementation, agency delivery and managed services
+through five client-facing practices. It is not a SaaS company and does not
+operate a commerce platform — those belong to separate entities in the group and
+are run separately.
 
-## 🏛 Two product lines under TicketWave HQ Ltd
-
-| Product line | What it is | Lives at | Sectors |
-|---|---|---|---|
-| 🎟 **TicketWave** | White-label commerce platform for events, bookings, and online ordering | [access.ticketwavehq.com](https://access.ticketwavehq.com) | Events, festivals, hospitality, food + drink, services |
-| 🛰 **TicketWave Witness** | Physical-security sensing for the built environment | [witness.ticketwavehq.com](https://witness.ticketwavehq.com) | BTR, hotels, venues, universities, PBSA, councils, transport hubs, events |
-
-Both product lines are owned by **TicketWave HQ Ltd** (Companies House [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)). They share legal entity, security posture, and EU-sovereign hosting, but ship under their own product surfaces.
-
----
-
-## 🎟 Three verticals, one engine
-
-| Vertical | Who it's for | What it ships |
+| Practice | Promise | Trades as |
 |---|---|---|
-| 🎫 **Events + ticketing** | Festivals, club nights, sports clubs, community events | Per-event ticket types, ticket transfers, post-event payouts to organiser's Stripe Connect account, partner referral tracking |
-| 🍽 **Food** | Restaurants, takeaways, delivery | Online ordering at `/order/<slug>`, kitchen + driver routing, capabilities-flagged menus, customer accounts |
-| 🛎 **Bookings + services** | Activities, classes, appointments | Slot-based booking, tiered platform fee (1.5–4%), automatic Stripe Connect payout split |
-
-All three share the same engine: a single `platformFee` column, one customer identity, one partner identity, one Stripe Connect rail. Partners don't pick a "product" — they sign one agreement and run whichever verticals apply to their business.
-
----
-
-## 🤝 How partners use it
-
-The platform is built around **partner sovereignty**: every event, every menu, every booking belongs to the operator who created it. We're the rails; they're the brand.
-
-1. Partner applies at [ticketwavehq.com/partners/apply](https://ticketwavehq.com/partners/apply)
-2. Onboards a Stripe Connect account (Express by default; Standard available for higher-trust partners)
-3. Lists their first event / menu / booking slots from the partner dashboard
-4. Customers buy via the partner's TicketWave-hosted page or a custom domain
-5. Partner takes their cut on each transaction; TWHQ takes the published platform fee
-6. Monthly payout report is generated per Connect account, never aggregated across currencies
+| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com) |
+| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk) |
+| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com) |
+| **Creative Studio** | Work that looks like the company you intend to be | — |
+| **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | — |
 
 ---
 
-## 💰 Pricing
+## Work you can read
 
-Single source of truth, no hidden uplift:
+Procurement asks for a capability statement and gets prose. These are the
+working documents instead — public, licensed, and usable by people who will
+never hire us.
 
-- **Food**: 3% flat
-- **Events**: 1.5%–4% tiered by volume + risk profile
-- **Bookings + services**: 1.5%–4% tiered
-
-No SaaS subscription on the commerce engine itself. No setup fee. No charge if you do not transact.
-
----
-
-## 📦 The repos in this org
-
-| Repo | What it does |
+| Repository | What it is |
 |---|---|
-| **ticketwave** | The platform monorepo — dashboard, public-facing apps, partner portal, webhook handlers, Stripe Connect orchestration. Next.js 16 + Turborepo. *Private.* |
-| **openapi-spec** | OpenAPI 3.1 spec for the TicketWave API (`/api/v1` + `/api/v2`). The `@ticketwave/sdk` package is generated from this spec. *Public, Apache-2.0.* |
-| **.github** | This org-profile repo — renders the page you are reading, plus org-wide community health files (`SECURITY.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SUPPORT.md`, issue templates). *Public.* |
-| **officesinleeds** | Reference implementation of the directory template — a Leeds workspace listings site published at [officesinleeds.com](https://officesinleeds.com). Astro 6.4 + SSR. *Private.* |
-| **marketing-asset-gen** | Side-tool generating ad-creative bundles for partners (£19/campaign, no subscription). Astro + image pipeline. *Private.* |
-
-Several private editorial micro-sites at `github.com/TicketWaveHQ/leeds-*` (spa, pizza, cafe, burgers, caribbean food, rent) are forks of the officesinleeds template — same engine, one domain + dataset per vertical.
-
-Public source links will be added if and when individual private repos are open-sourced. The TWHQ engine sits behind multiple consumer-facing brands. The city-guide network lives inside the monorepo under `apps/city-template` and is the engine behind the **Citorah** consumer brand (see below); the directory verticals (officesinleeds + the leeds-* sister sites) stand alone.
+| [`eu-sovereignty-checklist`](https://github.com/TicketWaveHQ/eu-sovereignty-checklist) | The checklist we apply to our own estate before a vendor is approved, plus a verification script that runs. CC BY 4.0 |
+| [`eu-sovereign-stack`](https://github.com/TicketWaveHQ/eu-sovereign-stack) | EEA and UK alternatives to common US SaaS, with the trade-offs each choice carries written down |
+| [`uk-gdpr-dpa-templates`](https://github.com/TicketWaveHQ/uk-gdpr-dpa-templates) | Article 28 data processing agreements, sub-processor disclosure, and an AI processing addendum |
+| [`website-care-checklist`](https://github.com/TicketWaveHQ/website-care-checklist) | What ongoing website maintenance should actually include, so a client can check whether they are getting it |
+| [`astro-performance-budget`](https://github.com/TicketWaveHQ/astro-performance-budget) | A performance budget that fails the build rather than filing a warning nobody reads |
 
 ---
 
-## 🔌 Public developer APIs
+## How we run
 
-Our REST API is a public OpenAPI 3.1 spec: [openapi-spec](https://github.com/TicketWaveHQ/openapi-spec) (Apache-2.0). The official TypeScript SDK, `@ticketwave/sdk`, is generated from it.
+**UK and EEA infrastructure by default.** Anything outside it requires a written
+exception with a named owner and an expiry date. Undocumented is not one of the
+available options, because it means nobody ever decided.
 
-Runnable quickstarts: [sdk-examples](https://github.com/TicketWaveHQ/sdk-examples), one small file per API operation with curl equivalents.
+**The exceptions are published**, not buried. Every processor is named at
+[/data-processors](https://ticketwavehq.com/data-processors) with its region and
+its data protection agreement — including the ones outside the EEA and the reason
+each is there. A sovereignty claim with no exception list is not one anyone
+experienced will believe.
+
+**Sixteen registers**, named individually at
+[/governance](https://ticketwavehq.com/governance): entities, intercompany
+agreements, transfer pricing, vendors and sub-processors, data processing,
+DPIAs, AI systems, model risk, open-source IP, IP assignment, incidents, product
+portfolio, retention, domains, international transfers, and social presence.
+
+**AI governance treated as operational**, not forthcoming. EU AI Act Article 50
+transparency obligations apply now; where a decision is automated we record
+whether it is wholly or partly so, and human review has to be capable of reaching
+a different answer.
 
 ---
 
-## 🌍 Consumer brands
+## Contact
 
-The TWHQ engine sits behind consumer-facing properties that are operated as separate properties with their own positioning and editorial voice.
-
-### Citorah — city-guide network
-
-**[citorah.com](https://citorah.com)** is the apex consumer brand for the city-guide network. Each city ships as a path under the apex:
-
-| City | Path |
+| For | Where |
 |---|---|
-| London | [citorah.com/london](https://citorah.com/london) |
-| Lisbon | [citorah.com/lisbon](https://citorah.com/lisbon) |
-| Ibiza | [citorah.com/ibiza](https://citorah.com/ibiza) |
-| Madrid | [citorah.com/madrid](https://citorah.com/madrid) |
-| Barcelona | [citorah.com/barcelona](https://citorah.com/barcelona) |
-| Greece | [citorah.com/greece](https://citorah.com/greece) |
-| Dubai | [citorah.com/dubai](https://citorah.com/dubai) |
-| Cancun | [citorah.com/cancun](https://citorah.com/cancun) |
-
-Eight city surfaces (Mexico region added July 2026), one apex, one editorial voice. Runs on the same Next.js monorepo (`apps/city-template`) with runtime multi-tenancy keyed off the URL path.
-
----
-
-## 🔒 Stack + security
-
-| Layer | Choice |
-|---|---|
-| **Application** | Next.js 16 on Vercel (London region, `lhr1`) |
-| **Database** | Neon Postgres (London region) |
-| **Payments** | Stripe + Stripe Connect (Express + Standard, multi-currency) |
-| **Email** | Resend (DKIM-signed, DMARC-aligned) |
-| **DNS + edge** | Cloudflare for DNS, DNSSEC, CAA. Vercel as the primary edge for active traffic |
-| **Bot + scraper defense** | Vercel Firewall with explicit AI-training-scraper blocks on 12 transactional zones |
-| **Mail authentication** | SPF, DKIM, DMARC `quarantine`/`reject`, MTA-STS, TLS-RPT |
-| **DNSSEC** | Enabled across all live production zones |
-| **Org security** | 2FA enforced on every contributor account |
-
-Single-region by design, with one primary vendor per layer — observability and incident response stay tractable.
-
-Our stack is EU-sovereign; the audit method is public: [eu-sovereignty-checklist](https://github.com/sansware/eu-sovereignty-checklist).
-
----
-
-## 🏢 About the company
-
-**TicketWave HQ Ltd** — UK private company limited by shares, registered in England & Wales.
-
-- **Company number**: [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167)
-- **Registered office**: Radley House, Richardshaw Road, Pudsey, LS28 6LE, United Kingdom
-- **Founder + CTO**: Jordan Lewis Gilbert. Loughborough BSc Architectural Engineering & Design Management engineer with named-firm history at [Mott MacDonald](https://www.mottmac.com/), [Kier Group](https://www.kier.co.uk/), [Higgins Partnerships](https://www.higginspartnerships.co.uk/), and [Sweco](https://www.sweco.co.uk/) between 2017 and 2022. HarvardX GSD1x Verified Certificate (an online course, not a Harvard degree). Twenty years building for the web, since 2006. TicketWave HQ Ltd was incorporated 8 April 2026. See the canonical [author profile](https://access.ticketwavehq.com/author/jordan-gilbert), [everything Jordan has written](https://access.ticketwavehq.com/author/jordan-gilbert/works), and the author [Atom feed](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml).
-
-The TWHQ brand stays B2B-only — operator-facing, partner-facing, integration-focused. Consumer brands (the recs network, the directory verticals) are run as separate properties with their own positioning.
-
----
-
-## 📬 Contact
-
-| Audience | Where to go |
-|---|---|
-| **Partner applications** | [ticketwavehq.com/partners/apply](https://ticketwavehq.com/partners/apply) |
-| **General enquiries** | [ticketwavehq.com/contact](https://ticketwavehq.com/contact) |
-| **Security disclosure** | See [SECURITY.md](https://github.com/TicketWaveHQ/.github/blob/main/SECURITY.md) (RFC 9116 / `/.well-known/security.txt`) |
-| **Press / investors** | Email via the contact page above |
-
----
-
-## 📚 Editorial + research
-
-- **Whitepaper**: [The Economics of White-Label Event Ticketing](https://access.ticketwavehq.com/research/whitelabel-economics). Honest breakdown of where the revenue from a £40 event ticket actually flows through aggregator, curated-marketplace, and white-label models. CC BY 4.0.
-- **Blog**: [access.ticketwavehq.com/blog](https://access.ticketwavehq.com/blog). Platform economics and engineering notes.
-- **Help centre**: [access.ticketwavehq.com/help](https://access.ticketwavehq.com/help). Operating notes and product docs. Regulatory pieces (PCI, GDPR) are dated and reviewer-flagged.
-- **Author feed**: [access.ticketwavehq.com/author/jordan-gilbert/feed.xml](https://access.ticketwavehq.com/author/jordan-gilbert/feed.xml). Atom 1.0 for every research paper, blog post, and long-form help article.
-
----
-
-## 👤 Founder + ecosystem
-
-Built by [Jordan Gilbert](https://github.com/sansware). See also [@Ukwebmarketing](https://github.com/Ukwebmarketing).
-
----
-
-## 🌐 Find us elsewhere
-
-- **Founder profile**: [access.ticketwavehq.com/author/jordan-gilbert](https://access.ticketwavehq.com/author/jordan-gilbert)
-- **LinkedIn**: [linkedin.com/in/eu-jordangilbert](https://www.linkedin.com/in/eu-jordangilbert/) (founder)
-- **Careers**: [ticketwavehq.com/careers](https://ticketwavehq.com/careers)
-- **Changelog**: [ticketwavehq.com/changelog](https://ticketwavehq.com/changelog)
-
----
+| Press and partnerships | [hello@ticketwavehq.com](mailto:hello@ticketwavehq.com) |
+| Data protection requests | [privacy@ticketwavehq.com](mailto:privacy@ticketwavehq.com) |
+| Security disclosure | [security@ticketwavehq.com](mailto:security@ticketwavehq.com) · [scope and policy](https://ticketwavehq.com/security) |
 
 <div align="center">
-
-*TicketWave HQ Ltd · Companies House [17143167](https://find-and-update.company-information.service.gov.uk/company/17143167) · England & Wales*
-
+<sub>TicketWave HQ Ltd · Company no. 17143167 · Radley House, Richardshaw Road, Pudsey, LS28 6LE · Registered in England and Wales</sub>
 </div>
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "TicketWave HQ Ltd",
-  "alternateName": "TicketWave HQ",
-  "url": "https://ticketwavehq.com",
-  "logo": "https://ticketwavehq.com/logo.png",
-  "description": "White-label commerce platform for events, bookings, and online ordering. Multi-vertical engine for UK businesses that sell time, seats, or access.",
-  "foundingDate": "2026-04-08",
-  "legalName": "TicketWave HQ Ltd",
-  "identifier": [
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Companies House",
-      "value": "17143167"
-    }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Radley House, Richardshaw Road",
-    "addressLocality": "Pudsey",
-    "postalCode": "LS28 6LE",
-    "addressCountry": "GB"
-  },
-  "founder": {
-    "@type": "Person",
-    "@id": "https://access.ticketwavehq.com/about#jordan-gilbert",
-    "name": "Jordan Lewis Gilbert",
-    "url": "https://access.ticketwavehq.com/author/jordan-gilbert",
-    "sameAs": [
-      "https://www.linkedin.com/in/eu-jordangilbert/",
-      "https://github.com/sansware",
-      "https://sansware.tech"
-    ]
-  },
-  "sameAs": [
-    "https://github.com/TicketWaveHQ",
-    "https://find-and-update.company-information.service.gov.uk/company/17143167"
-  ],
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "contactType": "Security",
-      "email": "security@ticketwavehq.com",
-      "url": "https://github.com/TicketWaveHQ/.github/blob/main/SECURITY.md"
-    },
-    {
-      "@type": "ContactPoint",
-      "contactType": "Customer Support",
-      "email": "hello@ticketwavehq.com"
-    }
-  ]
-}
-```
