@@ -15,8 +15,11 @@
      which redirects to a different product's pricing page.
 
      Per the group operating model: HQ Ltd sells professional services. The
-     commerce and sensing products belong to IP Ltd and are operated
-     separately. Keep this page describing the company that owns this org. -->
+     model assigns the commerce and sensing products to IP Ltd, but IP Ltd is
+     planned, not registered, so this page must not say they belong to it
+     (governance ADR-0001: never assert an entity that does not exist). It did
+     say that until 2026-10-07. Keep this page describing the company that
+     owns this org. -->
 
 <div align="center">
 
@@ -43,9 +46,9 @@ against controls published before you sign rather than described after you ask.
 England and Wales, number **17143167**.
 
 It sells consulting, implementation, agency delivery and managed services
-through five client-facing practices. It is not a SaaS company and does not
-operate a commerce platform — those belong to separate entities in the group and
-are run separately.
+through five client-facing practices. It sits in a wider group of which it is,
+for now, the only incorporated company. The rest of the group is planned rather
+than registered.
 
 | Practice | Promise | Trades as |
 |---|---|---|
@@ -53,7 +56,7 @@ are run separately.
 | **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk) |
 | **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com) |
 | **Creative Studio** | Work that looks like the company you intend to be | — |
-| **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | — |
+| **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
 
 ---
 

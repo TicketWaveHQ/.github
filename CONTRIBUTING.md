@@ -2,7 +2,7 @@
 
 Thanks for taking the time to consider a contribution.
 
-Most repositories in the [TicketWaveHQ](https://github.com/TicketWaveHQ) organisation are **private**. This guide covers the public ones — currently [`openapi-spec`](https://github.com/TicketWaveHQ/openapi-spec) and this [`.github`](https://github.com/TicketWaveHQ/.github) repo. Individual public repos may override or extend this guidance.
+Most repositories in the [TicketWaveHQ](https://github.com/TicketWaveHQ) organisation are **private**. This guide covers the public ones: the reference repositories listed on the [organisation page](https://github.com/TicketWaveHQ), and this [`.github`](https://github.com/TicketWaveHQ/.github) repo. Individual public repos may override or extend this guidance. The TicketWave API specification has moved to [TicketWave-IP/openapi-spec](https://github.com/TicketWave-IP/openapi-spec).
 
 ## Code of Conduct
 
@@ -37,7 +37,7 @@ For public repos:
 6. **Update docs** when changing public API surface.
 7. **Reference the issue** in the PR description (e.g. `Closes #123`).
 
-By submitting a PR you confirm that you have the right to license your contribution under the repo's existing licence (Apache-2.0 for `openapi-spec`; see each repo's `LICENSE` file).
+By submitting a PR you confirm that you have the right to license your contribution under the repo's existing licence (see each repo's `LICENSE` file).
 
 ## What we will not accept
 
@@ -47,7 +47,7 @@ By submitting a PR you confirm that you have the right to license your contribut
 
 ## Questions
 
-- General questions: open a [Discussion](https://github.com/TicketWaveHQ/openapi-spec/discussions) on the relevant repo, or email `hello@ticketwavehq.com`
+- General questions: open an issue on the relevant repo, or email `hello@ticketwavehq.com`
 - Security: `security@ticketwavehq.com` (see [SECURITY.md](SECURITY.md))
 - Conduct: `conduct@ticketwavehq.com`
 

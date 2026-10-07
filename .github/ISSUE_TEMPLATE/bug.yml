@@ -14,7 +14,7 @@ body:
     attributes:
       label: Repository
       description: Which TicketWaveHQ public repo is affected?
-      placeholder: e.g. openapi-spec
+      placeholder: e.g. website-care-checklist
     validations:
       required: true
   - type: input
