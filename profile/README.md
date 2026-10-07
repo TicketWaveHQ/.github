@@ -50,12 +50,15 @@ through five client-facing practices. It sits in a wider group of which it is,
 for now, the only incorporated company. The rest of the group is planned rather
 than registered.
 
-| Practice | Promise | Trades as |
+A practice is a capability and a brand is a shop front, so one brand can sell
+into more than one practice.
+
+| Practice | Promise | Sold through |
 |---|---|---|
-| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com) |
-| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk) |
-| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com) |
-| **Creative Studio** | Work that looks like the company you intend to be | — |
+| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run, search, marketing automation and CRM |
+| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, networks and telecoms for businesses · TicketWave HQ directly: integrations and migrations |
+| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): small-business security and Cyber Essentials readiness · TicketWave HQ directly: vendor vetting, DPIAs, due diligence |
+| **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
 | **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
 
 ---
