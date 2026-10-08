@@ -55,8 +55,8 @@ into more than one practice.
 
 | Practice | Promise | Sold through |
 |---|---|---|
-| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run, search, marketing automation and CRM |
-| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, networks and telecoms for businesses · TicketWave HQ directly: integrations and migrations |
+| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run (including moves and add-ons), search, marketing automation and CRM |
+| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, networks and telecoms for businesses · TicketWave HQ directly: business-system integrations, platform migrations, white-label |
 | **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): small-business security and Cyber Essentials readiness · TicketWave HQ directly: vendor vetting, DPIAs, due diligence |
 | **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
 | **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
