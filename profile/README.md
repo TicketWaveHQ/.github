@@ -56,8 +56,8 @@ into more than one practice.
 | Practice | Promise | Sold through |
 |---|---|---|
 | **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run (including moves and add-ons), search, marketing automation and CRM |
-| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, networks and telecoms for businesses · TicketWave HQ directly: business-system integrations, platform migrations, white-label |
-| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): small-business security and Cyber Essentials readiness · TicketWave HQ directly: vendor vetting, DPIAs, due diligence |
+| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, business email, networks and telecoms for businesses · TicketWave HQ directly: business-system integrations, platform migrations, white-label |
+| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): small-business security, Cyber Essentials readiness, UK GDPR and DPIA support · TicketWave HQ directly: vendor vetting, disaster-recovery planning, due diligence |
 | **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
 | **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
 
@@ -91,11 +91,12 @@ its data protection agreement — including the ones outside the EEA and the rea
 each is there. A sovereignty claim with no exception list is not one anyone
 experienced will believe.
 
-**Sixteen registers**, named individually at
+**Nineteen registers**, named individually at
 [/governance](https://ticketwavehq.com/governance): entities, intercompany
 agreements, transfer pricing, vendors and sub-processors, data processing,
 DPIAs, AI systems, model risk, open-source IP, IP assignment, incidents, product
-portfolio, retention, domains, international transfers, and social presence.
+portfolio, retention, domains, international transfers, social presence,
+credentials, recovery objectives, and services.
 
 **AI governance treated as operational**, not forthcoming. EU AI Act Article 50
 transparency obligations apply now; where a decision is automated we record
