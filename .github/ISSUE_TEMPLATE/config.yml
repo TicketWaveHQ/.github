@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security issue
+    url: https://ticketwavehq.com/security
+    about: Please do not open a public issue for a vulnerability. The security policy explains how to report it privately.
+  - name: Work with TicketWave HQ
+    url: https://ticketwavehq.com/contact
+    about: Questions about our services go to the company, not to these repositories.
