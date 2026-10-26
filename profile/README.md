@@ -61,6 +61,9 @@ into more than one practice.
 | **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
 | **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
 
+**[Custodiance](https://custodiance.com)**, the fourth trading name, is a pilot for regulated practices:
+law firms, accountancy practices, clinics and schools. Its own site describes what it sells.
+
 ---
 
 ## Work you can read
