@@ -9,7 +9,7 @@
 
      It mattered more than an ordinary out-of-date page. GitHub organisation
      profiles rank, and this one carried a "Platform: live" badge linking
-     straight at ticketwavehq.com — so a high-authority domain was telling
+     straight at ticketwavehq.com, so a high-authority domain was telling
      search engines precisely the thing the company site had just stopped
      saying. It also linked to /partners/apply, which 404s, and to /pricing,
      which redirects to a different product's pricing page.
@@ -57,7 +57,7 @@ into more than one practice.
 |---|---|---|
 | **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run (including moves and add-ons), search, marketing automation and CRM |
 | **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, business email, networks and telecoms for businesses · TicketWave HQ directly: business-system integrations, platform migrations, white-label |
-| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): small-business security, Cyber Essentials readiness, UK GDPR and DPIA support · TicketWave HQ directly: vendor vetting, disaster-recovery planning, due diligence |
+| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): business security, Cyber Essentials readiness, UK GDPR and DPIA support · TicketWave HQ directly: vendor vetting, disaster-recovery planning, due diligence |
 | **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
 | **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
 
@@ -66,7 +66,7 @@ into more than one practice.
 ## Work you can read
 
 Procurement asks for a capability statement and gets prose. These are the
-working documents instead — public, licensed, and usable by people who will
+working documents instead: public, licensed, and usable by people who will
 never hire us.
 
 | Repository | What it is |
@@ -87,7 +87,7 @@ available options, because it means nobody ever decided.
 
 **The exceptions are published**, not buried. Every processor is named at
 [/data-processors](https://ticketwavehq.com/data-processors) with its region and
-its data protection agreement — including the ones outside the EEA and the reason
+its data protection agreement, including the ones outside the EEA and the reason
 each is there. A sovereignty claim with no exception list is not one anyone
 experienced will believe.
 
