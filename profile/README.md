@@ -117,5 +117,5 @@ a different answer.
 | Security disclosure | [security@ticketwavehq.com](mailto:security@ticketwavehq.com) · [scope and policy](https://ticketwavehq.com/security) |
 
 <div align="center">
-<sub>TicketWave HQ Ltd · Company no. 17143167 · Radley House, Richardshaw Road, Pudsey, LS28 6LE · Registered in England and Wales</sub>
+<sub>TicketWave HQ Ltd · Company no. 17143167 · Ground Floor, Radley House, Richardshaw Road, Leeds, LS28 6LE · Registered in England and Wales</sub>
 </div>
