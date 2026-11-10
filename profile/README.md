@@ -1,4 +1,6 @@
 <!-- This file renders on the public org page:
+     2026-11-10: five practices became two (ADR-0037, 2026-11-08); the table follows
+     ticketwavehq.com's lib/practices.ts word for word.
      https://github.com/TicketWaveHQ
      Source: github.com/TicketWaveHQ/.github/profile/README.md
 
@@ -27,7 +29,7 @@
 
 **Governed digital operations for UK businesses.**
 
-Five practices under one accountable CTO, on UK and EEA infrastructure,
+Two practices under one accountable CTO, on UK and EEA infrastructure,
 against controls published before you sign rather than described after you ask.
 
 [![Companies House](https://img.shields.io/badge/Companies%20House-17143167-d6d3e0?style=flat-square&labelColor=0b0620)](https://find-and-update.company-information.service.gov.uk/company/17143167)
@@ -46,20 +48,22 @@ against controls published before you sign rather than described after you ask.
 England and Wales, number **17143167**.
 
 It sells consulting, implementation, agency delivery and managed services
-through five client-facing practices. It sits in a wider group of which it is,
-for now, the only incorporated company. The rest of the group is planned rather
-than registered.
+through two client-facing practices (since 8 November 2026). It sits in a wider
+group of which it is, for now, the only incorporated company. The rest of the
+group is planned rather than registered.
 
-A practice is a capability and a brand is a shop front, so one brand can sell
-into more than one practice.
+A practice is a capability and a brand is a shop front.
 
 | Practice | Promise | Sold through |
 |---|---|---|
-| **Growth & Digital** | Be found, be chosen, and keep the customer | [VerySEOly](https://veryseoly.com): websites built and run (including moves and add-ons), search, marketing automation and CRM |
-| **Technology Services** | Systems that hold up, and someone who answers when they do not | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices · [Dacros](https://dacros.com): managed IT, business email, networks and telecoms for businesses · TicketWave HQ directly: business-system integrations, platform migrations, white-label |
-| **Cybersecurity & Assurance** | Know what your exposure is before somebody else finds it | [Dacros](https://dacros.com/cyber-security): business security, Cyber Essentials readiness, UK GDPR and DPIA support · TicketWave HQ directly: vendor vetting, disaster-recovery planning, due diligence |
-| **Creative Studio** | Work that looks like the company you intend to be | [VerySEOly](https://veryseoly.com/creative): photography, video, brand identity · [JorTech](https://www.jortech.co.uk/live-streaming-leeds): event tech and live streaming |
-| **Strategy & Transactions** | Make, rescue, scale or exit a digital investment | TicketWave HQ directly · [fractional CTO](https://ticketwavehq.com/fractional-cto) |
+| **Digital** | Acquire, convert and retain customers, and create the visual and media assets they judge a business by | [VerySEOly](https://veryseoly.com): websites, search and the marketing systems behind them, built and run for UK businesses, and photography, video, brand identity and social content as its creative production |
+| **Technology support and maintenance** | Support, maintain, integrate and secure the technology a business or a home depends on | [JorTech](https://www.jortech.co.uk): repairs and tech help for homes and small offices, at your door or online, and event tech and live streaming · [Dacros](https://dacros.com): managed IT, business email, networks, telecoms and data cabling, and security reviews, Cyber Essentials readiness, email-fraud protection, and UK GDPR and DPIA support, for businesses |
+
+Integrations between business systems, database and platform migrations, Odoo
+implementation, white-label delivery, security audits of deployed systems,
+vendor review, disaster-recovery planning, technical due diligence and the
+[fractional CTO](https://ticketwavehq.com/fractional-cto) retainer are contracted
+with TicketWave HQ directly.
 
 **[Custodiance](https://custodiance.com)**, the fourth trading name, is a pilot for regulated practices:
 law firms, accountancy practices, clinics and schools. Its own site describes what it sells.
