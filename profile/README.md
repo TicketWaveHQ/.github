@@ -1,6 +1,8 @@
 <!-- This file renders on the public org page:
      2026-11-10: five practices became two (ADR-0037, 2026-11-08); the table follows
-     ticketwavehq.com's lib/practices.ts word for word.
+     ticketwavehq.com's lib/practices.ts word for word. Later the same day: the seven
+     new repositories, and both contact rows to hello@, as the privacy notice and
+     /security give it (security@ does not exist yet; privacy@ is in no record).
      https://github.com/TicketWaveHQ
      Source: github.com/TicketWaveHQ/.github/profile/README.md
 
@@ -73,8 +75,9 @@ law firms, accountancy practices, clinics and schools. Its own site describes wh
 ## Work you can read
 
 Procurement asks for a capability statement and gets prose. These are the
-working documents instead: public, licensed, and usable by people who will
-never hire us.
+working documents and tools instead: public, licensed, tested, and usable by
+people who will never hire us. Several began as code that runs our own sites
+and backups.
 
 | Repository | What it is |
 |---|---|
@@ -83,6 +86,13 @@ never hire us.
 | [`uk-gdpr-dpa-templates`](https://github.com/TicketWaveHQ/uk-gdpr-dpa-templates) | Article 28 data processing agreements, sub-processor disclosure, and an AI processing addendum |
 | [`website-care-checklist`](https://github.com/TicketWaveHQ/website-care-checklist) | What ongoing website maintenance should actually include, so a client can check whether they are getting it |
 | [`astro-performance-budget`](https://github.com/TicketWaveHQ/astro-performance-budget) | A performance budget that fails the build rather than filing a warning nobody reads |
+| [`static-csp`](https://github.com/TicketWaveHQ/static-csp) | A hashed Content-Security-Policy for any static build, failing the build on inline handlers and `javascript:` URLs. MIT |
+| [`next-export-strip-js`](https://github.com/TicketWaveHQ/next-export-strip-js) | Removes the Next.js runtime from a static export when no page needs JavaScript, and refuses when one does. MIT |
+| [`pages-to-caddy`](https://github.com/TicketWaveHQ/pages-to-caddy) | Cloudflare Pages and Netlify `_headers` and `_redirects` as Caddyfile rules, refusing any rule it cannot translate exactly. MIT |
+| [`person-entity-check`](https://github.com/TicketWaveHQ/person-entity-check) | Checks that one person's profile pages agree: JSON-LD names, `sameAs` links and canonicals. MIT |
+| [`serverless-backup-sentinel`](https://github.com/TicketWaveHQ/serverless-backup-sentinel) | Checks from outside that a recent backup exists in S3-compatible storage, and alarms when it does not. MIT |
+| [`age-offsite-backups`](https://github.com/TicketWaveHQ/age-offsite-backups) | Encrypts backups with age before they leave the machine, and proves on another that every copy decrypts. MIT |
+| [`odoo-json2`](https://github.com/TicketWaveHQ/odoo-json2) | TypeScript and Python clients for Odoo's JSON-2 API, with a migration guide from XML-RPC. MIT |
 
 ---
 
@@ -117,8 +127,8 @@ a different answer.
 | For | Where |
 |---|---|
 | Press and partnerships | [hello@ticketwavehq.com](mailto:hello@ticketwavehq.com) |
-| Data protection requests | [privacy@ticketwavehq.com](mailto:privacy@ticketwavehq.com) |
-| Security disclosure | [security@ticketwavehq.com](mailto:security@ticketwavehq.com) · [scope and policy](https://ticketwavehq.com/security) |
+| Data protection requests | [hello@ticketwavehq.com](mailto:hello@ticketwavehq.com) · [privacy notice](https://ticketwavehq.com/privacy) |
+| Security disclosure | [hello@ticketwavehq.com](mailto:hello@ticketwavehq.com) · [scope and policy](https://ticketwavehq.com/security) |
 
 <div align="center">
 <sub>TicketWave HQ Ltd · Company no. 17143167 · Ground Floor, Radley House, Richardshaw Road, Leeds, LS28 6LE · Registered in England and Wales</sub>
